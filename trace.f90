@@ -7,7 +7,7 @@ program trace
    real :: speedup 
    
    !n1=omp_get_num_threads()
-   open(1,file="temps.dat")
+   open(1,file="time.txt")
    open(10,file="speedup.dat")
    open(9,file="efficacité.dat")
    
